@@ -14,10 +14,10 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 {
-  "name": "Esperanto",
+  "name": "Esperanto Chinese Romanization",
   "version": "1.0",
   "manifest_version": 2,
-  "description": "Esperanto keyboard - klavaro por Esperanto",
+  "description": "Esperanto keyboard - ĉŭertj klavaro por Esperanto",
   "background": {
     "scripts": ["background.js"]
   },
@@ -28,10 +28,10 @@ limitations under the License.
     {
       "name": "Esperanto",
       "type": "ime",
-      "id": "esperanto_klavaro",
+      "id": "esperanto_chine",
       "description": "Esperanto keyboard - klavaro por Esperanto",  // user visible description
       "language": "eo",  // The primary language this IME is used for
-      "layouts": ["epo"]
+      "layouts": ["chi"]
     }
   ]
 }
